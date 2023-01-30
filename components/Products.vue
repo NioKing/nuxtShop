@@ -2,13 +2,13 @@
     <div class="container">
         <div class="products-card" v-for="p in products">
             <div class="image">
-                <img :src="p.image" alt="product image">
+                <img :src="p.image" alt="product image" style="height: 250px; object-fit: scale-down;">
             </div>
             <div class="description">
                 <NuxtLink :to="`/products/${p.id}`">{{ p.title }}</NuxtLink>
                 <span>Price: {{ p.price }} </span>
             </div>
-        </div>
+        </div>  
     </div>
 </template>
 
@@ -28,11 +28,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    width: 360px;
+    justify-content: space-around;
+    width: 290px;
     text-align: center;
-    padding: 10px;
-    min-height: 540px;
+    padding: 25px;
+    min-height: 400px;
 }
 .description {
     gap: 10px;

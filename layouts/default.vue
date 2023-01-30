@@ -5,6 +5,7 @@
         </div>
         <div class="links">
             <NuxtLink to="/products">Store</NuxtLink>
+            <NuxtLink to="/">Cart</NuxtLink>
             <NuxtLink to="/about">About us</NuxtLink>
             <NuxtLink to="/">Contacts</NuxtLink>
         </div>
