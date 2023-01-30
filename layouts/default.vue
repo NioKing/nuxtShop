@@ -4,8 +4,8 @@
             <NuxtLink to="/">Store App</NuxtLink>
         </div>
         <div class="links">
-            <NuxtLink to="/">About us</NuxtLink>
-            <NuxtLink to="/">Store</NuxtLink>
+            <NuxtLink to="/products">Store</NuxtLink>
+            <NuxtLink to="/about">About us</NuxtLink>
             <NuxtLink to="/">Contacts</NuxtLink>
         </div>
     </nav>
