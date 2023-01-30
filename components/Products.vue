@@ -7,6 +7,7 @@
             <div class="description">
                 <NuxtLink :to="`/products/${p.id}`">{{ p.title }}</NuxtLink>
                 <span>Price: {{ p.price }} </span>
+                <button>Add to cart</button>
             </div>
         </div>  
     </div>
@@ -29,12 +30,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 290px;
+    width: 300px;
     text-align: center;
     padding: 25px;
-    min-height: 400px;
+    min-height: 480px;
 }
 .description {
+    padding: 10px;
     gap: 10px;
 }
 
