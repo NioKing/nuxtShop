@@ -6,7 +6,7 @@
             </div>
             <div class="description">
                 <NuxtLink class="title" :to="`/products/${p.id}`">{{ p.title }}</NuxtLink>
-                <span>Price: {{ p.price }} </span>
+                <span style="font-size: 1.25rem;">Price: {{ p.price }} </span>
                 <div class="btn">
                     <button>Add to cart</button>
                 </div>

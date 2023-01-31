@@ -7,7 +7,7 @@
             <NuxtLink class="link" to="/products">Store</NuxtLink>
             <NuxtLink class="link" to="/cart">Cart</NuxtLink>
             <NuxtLink class="link" to="/about">About us</NuxtLink>
-            <NuxtLink class="link" to="/">Contacts</NuxtLink>
+            <NuxtLink class="link" to="/contacts">Contacts</NuxtLink>
         </div>
     </nav>
     <slot />
