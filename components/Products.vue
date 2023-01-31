@@ -7,15 +7,17 @@
             <div class="description">
                 <NuxtLink :to="`/products/${p.id}`">{{ p.title }}</NuxtLink>
                 <span>Price: {{ p.price }} </span>
-                <button>Add to cart</button>
+                <div class="btn">
+                    <button>Add to cart</button>
+                </div>
             </div>
-        </div>  
+        </div>
     </div>
 </template>
 
 <style>
 .container {
-    display: flex; 
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
@@ -35,14 +37,38 @@
     padding: 25px;
     min-height: 480px;
 }
+
 .description {
     padding: 10px;
     gap: 10px;
 }
 
+.btn {
+    display: flex;
+    justify-content: center;
+}
+.btn > button {
+    min-width: 100px;
+    min-height: 40px;
+    font-size: 1.1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 20%),
+            0px 2px 3px 0px rgb(0 0 0 / 14%),
+            0px 2px 3px 0px rgb(0 0 0 / 12%);
+    cursor: pointer;
+}
 
+.btn :hover {
+    background: rgba(230, 230, 230, 0.8);
+}
+
+.btn :active {
+    background: rgba(200, 200, 200, 0.8);
+}
 </style>
 
 <script setup>
-const {data: products} = await useFetch('https://fakestoreapi.com/products')
+const { data: products } = await useFetch('https://fakestoreapi.com/products')
 </script>

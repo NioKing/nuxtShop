@@ -14,10 +14,10 @@
 .container {
     display: flex;
     align-items: center;
-    /* height: calc(100vh - 60px); */
 }
 
 .product-card {
+    margin-top: 250px;
     display: flex;
     border-bottom: 1px solid grey;
     width: 600px;
