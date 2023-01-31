@@ -5,7 +5,7 @@
                 <img :src="p.image" alt="product image" style="height: 250px; object-fit: scale-down;">
             </div>
             <div class="description">
-                <NuxtLink :to="`/products/${p.id}`">{{ p.title }}</NuxtLink>
+                <NuxtLink class="title" :to="`/products/${p.id}`">{{ p.title }}</NuxtLink>
                 <span>Price: {{ p.price }} </span>
                 <div class="btn">
                     <button>Add to cart</button>
@@ -67,6 +67,11 @@
 .btn :active {
     background: rgba(200, 200, 200, 0.8);
 }
+.title {
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
 </style>
 
 <script setup>
