@@ -31,11 +31,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    width: 300px;
+    justify-content: space-between;
+    width: 350px;
     text-align: center;
-    padding: 25px;
-    min-height: 480px;
+    padding: 20px;
+    min-height: 530px;
 }
 
 .description {
@@ -58,6 +58,7 @@
             0px 2px 3px 0px rgb(0 0 0 / 14%),
             0px 2px 3px 0px rgb(0 0 0 / 12%);
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .btn :hover {
