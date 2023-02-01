@@ -9,9 +9,9 @@
                     <span>Product title</span>
                 </div>
                 <div class="cart-quantity">
-                    <span class="cart-icon">+</span>
-                    <span>2</span>
                     <span class="cart-icon">-</span>
+                    <span>2</span>
+                    <span class="cart-icon">+</span>
                 </div>
                 <div class="cart-price">
                     <span>
