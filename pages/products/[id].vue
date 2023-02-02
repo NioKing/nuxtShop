@@ -1,4 +1,7 @@
 <template>
+    <Head>
+        <Title>{{ product.title }}</Title>
+    </Head>
     <div class="container">
         <div class="product-card">
             <div class="description">

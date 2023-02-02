@@ -2,9 +2,9 @@
     <div class="container">
         <div class="cart-card">
             <div class="item-card">
-                    <div class="cart-img">
-                        <img style="width: 80px;" src="" alt="Product image">
-                    </div>
+                <div class="cart-img">
+                    <img style="width: 80px;" src="" alt="Product image">
+                </div>
                 <div class="cart-product-title">
                     <span>Product title</span>
                 </div>
@@ -28,9 +28,9 @@
                     <button>Checkout</button>
                 </div>
             </div>
-            </div>
         </div>
-        
+    </div>
+
 </template>
 
 <style>
@@ -52,26 +52,29 @@
     padding: 20px;
     justify-content: space-between;
     box-shadow: 0px 3px 3px -1px rgb(0 0 0 / 20%),
-            0px 2px 2px 0px rgb(0 0 0 / 14%),
-            0px 1px 3px 0px rgb(0 0 0 / 12%);
+        0px 2px 2px 0px rgb(0 0 0 / 14%),
+        0px 1px 3px 0px rgb(0 0 0 / 12%);
     align-items: center;
 }
 
 .cart-img {
     display: flex;
 }
+
 .cart-product-title {
-display: flex;
+    display: flex;
 }
+
 .cart-quantity {
-display: flex;
-gap: 12px;
-align-items: center;
+    display: flex;
+    gap: 12px;
+    align-items: center;
 }
 
 .cart-price {
-display: flex;
+    display: flex;
 }
+
 .cart-icon {
     background: #F7F5F5;
     border-radius: 15px;
@@ -79,10 +82,11 @@ display: flex;
     display: flex;
     justify-content: center;
     box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
-            0px 1px 1px 0px rgb(0 0 0 / 14%),
-            0px 1px 3px 0px rgb(0 0 0 / 12%);
+        0px 1px 1px 0px rgb(0 0 0 / 14%),
+        0px 1px 3px 0px rgb(0 0 0 / 12%);
     cursor: pointer;
 }
+
 .cart-value-card {
     display: flex;
     flex-direction: column;
@@ -97,5 +101,5 @@ display: flex;
 </style>
 
 <script setup>
-
+useHead({ title: "Cart"})
 </script>
