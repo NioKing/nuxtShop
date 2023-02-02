@@ -65,7 +65,7 @@ display: flex;
 }
 .cart-quantity {
 display: flex;
-gap: 10px;
+gap: 12px;
 align-items: center;
 }
 
